@@ -1,1 +1,0 @@
-typedes strucrt 
