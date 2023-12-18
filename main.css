@@ -1,13 +1,15 @@
-
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
 /* Style de base pour le body */
-body {
+html, body { 
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
+    background-color: #f5f5dc !important;
+    margin: 0;
+    
 }
 
 
@@ -20,7 +22,9 @@ header {
 header img {
     border-radius: 50%;
     margin-bottom: 20px;
+
 }
+
 
 nav {
     background-color: #333;
@@ -100,5 +104,13 @@ main p {
 main h2 {
     color: #800080; /* Violet */
 }
+.error-message {
+    color: #ff0000; /* Rouge */
+    margin-top: 10px;
+}
+
+
+
+
 
 
